@@ -1,0 +1,14 @@
+# Environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Large raw data (uncomment if dataset shouldn't be pushed to GitHub)
+# data/*.csv
