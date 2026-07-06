@@ -3,6 +3,10 @@
 ## Project Title
 Predicting Heart Disease from Clinical Measurements
 
+## Git source
+
+Git repository link : https://github.com/LeniChabilan/CPE_Project_Group_IUTO/
+
 ## Summary
 This project uses the UCI Cleveland Heart Disease dataset (via Kaggle) to predict whether a patient has heart disease based on 13 standard clinical measurements (age, blood pressure, cholesterol, maximum heart rate, chest pain type, etc.). After discovering and removing 723 duplicate rows and 6 rows with invalid category codes from the raw 1,025-row file, we trained and compared four classification models — Logistic Regression, K-Nearest Neighbors, Decision Tree, and Random Forest — on the resulting 296 unique patient records. Logistic Regression gave the best overall trade-off (F1-score ≈ 0.82, accuracy ≈ 0.80, AUC ≈ 0.87), with chest pain type, ST depression, number of major vessels, thalassemia result, and maximum heart rate identified as the most informative predictors.
 
